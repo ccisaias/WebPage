@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+<style>
+    body{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+</style>
+
+<body>
+    <a href="index.html">> Index</a>
+    <hr>
+    <h3>Contacto:</h3>
+      <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" size="29">
+          
+          <br><br>
+          <label for="correo">Correo:</label>
+          <input type="email" name="correo" id="correo" size="30">
+          
+          <br><br>
+          <label for="carrera">Carrera:</label>
+          <select name="carrera" id="carrera">
+              <option value="INCO">Ing. en Computación</option>
+              <option value="INNI">Ing. en Informática</option>
+          </select>
+
+          <br><br>
+          <label for="fechanac">Fecha de nacimiento:</label>
+          <input type="date" name="fechanac" id="fechanac">
+          
+          <br><br>
+          <label for="genero">Genero:</label>
+          <input type="radio" name="genero" id="genero" value="h"><i>Hombre</i>
+          <input type="radio" name="genero" id="genero" value="m"><i>Mujer</i>
+
+          <br><br>
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" name="contraseña" id="contraseña" size="25">
+
+          <br><br>
+          <label for="comentario">Comentario:<br></label>
+          <textarea name="comentario" id="comentario" rows="7" cols="40"></textarea>
+
+          <br><br>
+          <label for="opcional">Quiero recibir mas información.</label>
+          <input type="checkbox" name="opcional" id="opcional">
+
+          <br><br>
+          <label for="promedio">Promedio:</label>
+          <input type="number" name="promedio" id="promedio" >
+
+      </form>
+</body>
+</html>
